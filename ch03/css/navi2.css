@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
 }
 #container{
     width: 1000px;
@@ -18,8 +19,11 @@ ul{
 }
 ul li{
     display: inline-block;
-    margin: 20px;
-    padding: 10px 0;
+    /* margin: 20px;
+    padding: 10px 0; */
+    /* 위에 nav에서 height 80px랑 line-height 80px랑 같이하면 가운데 정렬됨. */
+    line-height: 80px;
+    margin: 0 20px;
 }
 a{
     text-decoration: none;

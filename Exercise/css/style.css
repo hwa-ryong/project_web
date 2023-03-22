@@ -1,0 +1,20 @@
+.container{
+    width: 520px;
+    margin: 0 auto;
+}
+h1{
+    margin-left: 20px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    margin-bottom: 20px;
+    
+}
+.button input{
+    /* top right bottom left */
+   margin: 10px 2px;
+   padding: 5px 10px;
+   cursor: pointer;  /* 커서 모양 변경 */
+}
