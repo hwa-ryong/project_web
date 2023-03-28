@@ -100,6 +100,7 @@ footer{
 footer #bottomMenu{
     list-style: none; 
     padding: 20px;
+    
 }
 #bottomMenu li{
     display: inline-block; 
@@ -190,4 +191,57 @@ td:nth-child(3), td:nth-child(4){
 .btn button{
     padding: 10px 15px;
     margin-bottom: 50px;
+}
+
+/* aboutme 스타일 */
+#profile{
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+#intro h1{
+    margin: 30px 0;
+    
+}
+#intro h2{
+    margin-bottom: 10px;
+    color: blue;
+}
+#career h2{
+    margin: 50px 20px 0;
+    color: blue;
+}
+#career ul li{
+    line-height: 3;
+}
+#intro img{
+    width: 250px;
+    height: 250px;
+    margin: 30px 0; 
+}
+
+/* register 스타일 */
+#register section h2{
+    text-align: center;
+    margin: 30px 10px;
+}
+#register #tb1_write{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    width: 700px;
+    margin: 0 auto;
+}
+#tb1_write input[type="text"]{
+    width: 650px;
+    height: 25px;
+}
+#tb1_write textarea{
+    width: 650px;
+}
+#tb1_write input[type="submit"], input[type="reset"]{
+    padding: 10px 20px;
+    
+}  
+#tb1_write tr:last-child{
+    text-align: center;
 }
